@@ -1,13 +1,8 @@
-print('--------------------------------')
+from flask import
 
 
-def Pizdec():
-    if varchar != 14:
-        print('sdakslksdlak')
+class Base(base):
+    __init__ = print(10)
 
-
-class Pizda(Base):
-    __init__ = print(213)
-
-
-#sakjldasdkaslkd
+def printed():
+    ...
