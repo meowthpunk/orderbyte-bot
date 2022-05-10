@@ -1,0 +1,958 @@
+{
+    "lastUpdatedAt": "2022-04-07T10:57:20+0300",
+    "menuItems": {
+        "categories": [
+            {
+                "id": "628",
+                "parentId": null,
+                "name": "Salads"
+            },
+            {
+                "id": "629",
+                "parentId": null,
+                "name": "Snacks"
+            },
+            {
+                "id": "630",
+                "parentId": null,
+                "name": "Soups"
+            },
+            {
+                "id": "631",
+                "parentId": null,
+                "name": "Burgers"
+            },
+            {
+                "id": "632",
+                "parentId": null,
+                "name": "Desserts"
+            },
+            {
+                "id": "633",
+                "parentId": null,
+                "name": "Drinks"
+            },
+            {
+                "id": "634",
+                "parentId": null,
+                "name": "Pizza"
+            }
+        ],
+        "products": [
+            {
+                "id": "2640",
+                "categoryId": "634",
+                "name": "Make Your Own Pizza 40cm",
+                "description": "Make your own favorite pizza",
+                "price": 600,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/b01262e9-5e9b-453c-9046-23f2068d345a.jpeg",
+                "byWeight": false,
+                "weight": "550",
+                "ingredientsGroups": [
+                    {
+                        "name": "Choose dough",
+                        "ingredients": [
+                            {
+                                "id": "4493",
+                                "name": "Thin",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4494",
+                                "name": "Thick",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4495",
+                                "name": "Stuffed",
+                                "price": 100,
+                                "vat": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Choose type of dough",
+                        "ingredients": [
+                            {
+                                "id": "4496",
+                                "name": "Rye",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4497",
+                                "name": "White",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4498",
+                                "name": "Cauliflower",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4499",
+                                "name": "Sourdough",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4500",
+                                "name": "No yeast",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4501",
+                                "name": "Gluten free",
+                                "price": 100,
+                                "vat": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Choose type of base",
+                        "ingredients": [
+                            {
+                                "id": "4502",
+                                "name": "Flatbread",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4503",
+                                "name": "Cheese-Stuffed Crust",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4504",
+                                "name": "Pizza Bagels",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4505",
+                                "name": "Thin Crust",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4506",
+                                "name": "Sicilian Style",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4507",
+                                "name": "Chicago Deep Dish",
+                                "price": 100,
+                                "vat": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Choose additional ingredients",
+                        "ingredients": [
+                            {
+                                "id": "4508",
+                                "name": "Mozarella",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4509",
+                                "name": "Marinara sause ",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4510",
+                                "name": "Fresh tomatoes ",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4511",
+                                "name": "Onion",
+                                "price": 50,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4512",
+                                "name": "Olives",
+                                "price": 50,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4513",
+                                "name": "Ham",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4514",
+                                "name": "Mushrooms",
+                                "price": 100,
+                                "vat": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "2616",
+                "categoryId": "628",
+                "name": "Salad with tuna and avocado",
+                "description": "Salad with tuna and avocado",
+                "price": 695,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/9a197a34-7d11-413c-9c0b-590ce1294d36.jpeg",
+                "byWeight": false,
+                "weight": "250"
+            },
+            {
+                "id": "2617",
+                "categoryId": "628",
+                "name": "Classic Caesar with chicken",
+                "description": "Classic Caesar with chicken",
+                "price": 590,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/4c9c2451-1658-4d86-b431-19eb3c92e9cc.jpeg",
+                "byWeight": false,
+                "weight": "300"
+            },
+            {
+                "id": "2618",
+                "categoryId": "629",
+                "name": "Chicken fingers",
+                "description": "Chicken fingers",
+                "price": 530,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/e80c50a9-e9bd-416e-b015-fd23f02f8feb.jpeg",
+                "byWeight": false,
+                "weight": "350"
+            },
+            {
+                "id": "2619",
+                "categoryId": "629",
+                "name": "Chicken chimichangas",
+                "description": "Chicken chimichangas",
+                "price": 415,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/2bc25184-1abb-470e-9f7c-d755c150b388.jpeg",
+                "byWeight": false,
+                "weight": "270"
+            },
+            {
+                "id": "2620",
+                "categoryId": "630",
+                "name": "Ukrainian borsch",
+                "description": "Ukrainian borsch",
+                "price": 350,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/713fd0c8-6fd0-4bb3-a842-9586c5c1c442.jpeg",
+                "byWeight": false,
+                "weight": "370"
+            },
+            {
+                "id": "2621",
+                "categoryId": "630",
+                "name": "Mexican chili con carne",
+                "description": "Mexican chili con carne",
+                "price": 465,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/6ba7524a-6736-4838-967e-934344f3b99d.jpeg",
+                "byWeight": false,
+                "weight": "370"
+            },
+            {
+                "id": "2622",
+                "categoryId": "632",
+                "name": "American apple pie",
+                "description": "American apple pie",
+                "price": 385,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/8ad04ff7-f0ba-4956-9dfd-c88e3a979d30.jpeg",
+                "byWeight": false,
+                "weight": "220"
+            },
+            {
+                "id": "2623",
+                "categoryId": "632",
+                "name": "American cherry pie",
+                "description": "American cherry pie",
+                "price": 385,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/cf3d5c67-c70c-4e01-af94-ede78564aea2.jpeg",
+                "byWeight": false,
+                "weight": "290"
+            },
+            {
+                "id": "2624",
+                "categoryId": "633",
+                "name": "Coca-Cola",
+                "description": "Coca-Cola",
+                "price": 180,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/8f0f35f1-a967-4c75-8282-b36aade79352.jpeg",
+                "byWeight": false,
+                "volume": "330"
+            },
+            {
+                "id": "2625",
+                "categoryId": "633",
+                "name": "Coca-Cola Zero",
+                "description": "Coca-Cola Zero",
+                "price": 180,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/0f2f5a62-d962-447f-a577-49027e9ca726.jpeg",
+                "byWeight": false,
+                "volume": "330"
+            },
+            {
+                "id": "2626",
+                "categoryId": "633",
+                "name": "Sprite",
+                "description": "Sprite",
+                "price": 180,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/c332f209-b3c2-40c5-8cfb-9b39782a7fda.jpeg",
+                "byWeight": false,
+                "volume": "330"
+            },
+            {
+                "id": "2627",
+                "categoryId": "633",
+                "name": "Fanta",
+                "description": "Fanta",
+                "price": 180,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/98bde360-b292-4b2a-8c72-69491182017a.jpeg",
+                "byWeight": false,
+                "volume": "330"
+            },
+            {
+                "id": "2628",
+                "categoryId": "633",
+                "name": "Aqua Minerale still",
+                "description": "Aqua Minerale still",
+                "price": 150,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/e9e4452b-07ae-484c-8f65-6e6f9ac4b99f.jpeg",
+                "byWeight": false,
+                "volume": "500"
+            },
+            {
+                "id": "2629",
+                "categoryId": "633",
+                "name": "Aqua Minerale sparkling",
+                "description": "Aqua Minerale sparkling",
+                "price": 150,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/3f6d25aa-6eb4-441d-9c1d-e6f1f9a619f7.jpeg",
+                "byWeight": false,
+                "volume": "500"
+            },
+            {
+                "id": "2630",
+                "categoryId": "631",
+                "name": "Cheeseburger Double Kiss",
+                "description": "Cheeseburger with a generous portion of American cheese, two juicy 100% beef patties, ripe tomatoes, lettuce and pickle slices",
+                "price": 825,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/8ca98a16-133f-4c0b-a111-17084dfc9da2.jpeg",
+                "byWeight": false,
+                "weight": "395"
+            },
+            {
+                "id": "2631",
+                "categoryId": "631",
+                "name": "Burger French Kiss",
+                "description": "Delicate burger with grilled beef patty, fragrant bleu cheese, arugula salad, tomato slices and onion rings. Seasoned with original pesto sauce",
+                "price": 625,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/8a0abeb7-17da-426d-a5c1-b95c328d0708.jpeg",
+                "byWeight": false,
+                "weight": "360"
+            },
+            {
+                "id": "2632",
+                "categoryId": "631",
+                "name": "Burger Italian Kiss",
+                "description": "Italian style burger: grilled chicken breast with romaine lettuce, Caesar dressing, ripe tomatoes and parmesan. Served with french fries",
+                "price": 555,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/f8187dd5-51c9-447b-9890-6461180c7ccf.jpeg",
+                "byWeight": false,
+                "weight": "350"
+            },
+            {
+                "id": "2633",
+                "categoryId": "631",
+                "name": "Burger Spanish Kiss",
+                "description": "An irresistible combination of juicy beef patty, spicy Spanish sausages, fresh arugula and roasted bell peppers with spicy chipotle sauce. Served with french fries",
+                "price": 705,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/0a59ea07-0cb7-4b38-8ba9-a646cecdbc3f.jpeg",
+                "byWeight": false,
+                "weight": "440"
+            },
+            {
+                "id": "2634",
+                "categoryId": "631",
+                "name": "Burger Indian Kiss",
+                "description": "The original lamb and beef patty burger topped with a spicy garlic yoghurt sauce and coconut curry. Ground almonds, ripe tomatoes and tender spinach give additional flavors",
+                "price": 590,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/ec88c6c6-3ead-4ea2-abaa-bf3c397ab197.jpeg",
+                "byWeight": false,
+                "weight": "370"
+            },
+            {
+                "id": "2635",
+                "categoryId": "631",
+                "name": "Cheeseburger Swiss Kiss",
+                "description": "Burger with juicy grilled beef patty, crispy bacon, tomatoes and two types of cheese - Swiss and blue",
+                "price": 705,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/351375f1-68e9-49ce-baac-be345343ed23.jpeg",
+                "byWeight": false,
+                "weight": "314"
+            },
+            {
+                "id": "2636",
+                "categoryId": "631",
+                "name": "Burger Southern Kiss",
+                "description": "Gourmet burger with beef patty, aged cheddar, ripe avocado and fried egg with homemade salsa dressing",
+                "price": 645,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/d6df0a84-ea64-4838-b3d0-fcc1dd480e83.jpeg",
+                "byWeight": false,
+                "weight": "400"
+            },
+            {
+                "id": "2637",
+                "categoryId": "634",
+                "name": "Make Your Own Pizza",
+                "description": "Make your own favorite pizza",
+                "price": 200,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/a0040331-17dc-40e9-9df0-026a5f8b7f32.jpeg",
+                "byWeight": false,
+                "weight": "250",
+                "ingredientsGroups": [
+                    {
+                        "name": "Choose dough",
+                        "ingredients": [
+                            {
+                                "id": "4424",
+                                "name": "Thin",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4425",
+                                "name": "Thick",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4426",
+                                "name": "Stuffed",
+                                "price": 100,
+                                "vat": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Choose type of dough",
+                        "ingredients": [
+                            {
+                                "id": "4427",
+                                "name": "Rye",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4428",
+                                "name": "White",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4429",
+                                "name": "Cauliflower",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4430",
+                                "name": "Sourdough",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4431",
+                                "name": "No yeast",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4432",
+                                "name": "Gluten free",
+                                "price": 100,
+                                "vat": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Choose type of base",
+                        "ingredients": [
+                            {
+                                "id": "4433",
+                                "name": "Flatbread",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4434",
+                                "name": "Cheese-Stuffed Crust",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4435",
+                                "name": "Pizza Bagels",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4436",
+                                "name": "Thin Crust",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4437",
+                                "name": "Sicilian Style",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4438",
+                                "name": "Chicago Deep Dish",
+                                "price": 100,
+                                "vat": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Choose size",
+                        "ingredients": [
+                            {
+                                "id": "4439",
+                                "name": "Small - 25cm",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4440",
+                                "name": "Medium - 30cm",
+                                "price": 250,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4441",
+                                "name": "XXL - 40cm",
+                                "price": 400,
+                                "vat": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Choose additional ingredients",
+                        "ingredients": [
+                            {
+                                "id": "4442",
+                                "name": "Mozarella",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4443",
+                                "name": "Marinara sause",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4444",
+                                "name": "Fresh tomatoes",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4445",
+                                "name": "Onion",
+                                "price": 50,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4446",
+                                "name": "Olives",
+                                "price": 50,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4447",
+                                "name": "Ham",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4448",
+                                "name": "Mushrooms",
+                                "price": 100,
+                                "vat": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "2638",
+                "categoryId": "634",
+                "name": "Make Your Own Pizza 25cm",
+                "description": "Make your own favorite pizza",
+                "price": 200,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/9e7288f2-1464-4685-8700-776bf38942e5.jpeg",
+                "byWeight": false,
+                "weight": "250",
+                "ingredientsGroups": [
+                    {
+                        "name": "Choose dough",
+                        "ingredients": [
+                            {
+                                "id": "4449",
+                                "name": "Thin",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4450",
+                                "name": "Thick",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4451",
+                                "name": "Stuffed",
+                                "price": 100,
+                                "vat": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Choose type of dough",
+                        "ingredients": [
+                            {
+                                "id": "4452",
+                                "name": "Rye",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4453",
+                                "name": "White",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4454",
+                                "name": "Cauliflower",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4455",
+                                "name": "Sourdough",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4456",
+                                "name": "No yeast",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4457",
+                                "name": "Gluten free",
+                                "price": 100,
+                                "vat": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Choose type of base",
+                        "ingredients": [
+                            {
+                                "id": "4458",
+                                "name": "Flatbread",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4459",
+                                "name": "Cheese-Stuffed Crust",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4460",
+                                "name": "Pizza Bagels",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4461",
+                                "name": "Thin Crust",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4462",
+                                "name": "Sicilian Style",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4463",
+                                "name": "Chicago Deep Dish",
+                                "price": 100,
+                                "vat": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Choose additional ingredients",
+                        "ingredients": [
+                            {
+                                "id": "4464",
+                                "name": "Mozarella",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4465",
+                                "name": "Marinara sause ",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4466",
+                                "name": "Fresh tomatoes ",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4467",
+                                "name": "Onion",
+                                "price": 50,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4468",
+                                "name": "Olives",
+                                "price": 50,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4469",
+                                "name": "Ham",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4470",
+                                "name": "Mushrooms",
+                                "price": 100,
+                                "vat": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "2639",
+                "categoryId": "634",
+                "name": "Make Your Own Pizza 30cm",
+                "description": "Make your own favorite pizza",
+                "price": 450,
+                "vat": 0,
+                "imageUrl": "https://orderbyte.io/api/v1/download/menus/a46d763d-56bb-4739-bbe3-72074b0bfb27.jpeg",
+                "byWeight": false,
+                "weight": "400",
+                "ingredientsGroups": [
+                    {
+                        "name": "Choose dough",
+                        "ingredients": [
+                            {
+                                "id": "4471",
+                                "name": "Thin",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4472",
+                                "name": "Thick",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4473",
+                                "name": "Stuffed",
+                                "price": 100,
+                                "vat": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Choose type of dough",
+                        "ingredients": [
+                            {
+                                "id": "4474",
+                                "name": "Rye",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4475",
+                                "name": "White",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4476",
+                                "name": "Cauliflower",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4477",
+                                "name": "Sourdough",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4478",
+                                "name": "No yeast",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4479",
+                                "name": "Gluten free",
+                                "price": 100,
+                                "vat": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Choose type of base",
+                        "ingredients": [
+                            {
+                                "id": "4480",
+                                "name": "Flatbread",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4481",
+                                "name": "Cheese-Stuffed Crust",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4482",
+                                "name": "Pizza Bagels",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4483",
+                                "name": "Thin Crust",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4484",
+                                "name": "Sicilian Style",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4485",
+                                "name": "Chicago Deep Dish",
+                                "price": 100,
+                                "vat": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Choose additional ingredients",
+                        "ingredients": [
+                            {
+                                "id": "4486",
+                                "name": "Mozarella",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4487",
+                                "name": "Marinara sause ",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4488",
+                                "name": "Fresh tomatoes ",
+                                "price": 0,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4489",
+                                "name": "Onion",
+                                "price": 50,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4490",
+                                "name": "Olives",
+                                "price": 50,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4491",
+                                "name": "Ham",
+                                "price": 100,
+                                "vat": 0
+                            },
+                            {
+                                "id": "4492",
+                                "name": "Mushrooms",
+                                "price": 100,
+                                "vat": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
   <title>Document</title>
 </head>
@@ -25,7 +25,7 @@
       <template v-if="cartActive == false">
         <div v-if="(selectedCategory == 0)" class="categories">
           <div v-for="index in categories" v-on:click="showCategory(index.id)" class="category-item">
-            <p>{{ index.name }}</p>
+            <p>[[index.name]]</p>
           </div>
         </div>
       </template>
@@ -36,12 +36,12 @@
           <div v-if="selectedProduct == 0" class="category-products">
             <div class="nav-menu">
               <button v-on:click="backCategories()" class="back-button">
-                <img src="pngs/left-arrow.png" alt="">
+                <img src="{{ url_for('static', filename='pngs/left-arrow.png') }}" alt="">
               </button>
               <template v-for="cats in categories">
                 <div v-if="cats.id == selectedCategory" class="cat-name">
                   <p>
-                    {{cats.name}}
+                    [[cats.name]]
                   </p>
                 </div>
               </template>
@@ -54,10 +54,10 @@
                       <img :src="index.imageUrl" alt="">
                     </div>
                     <div class="product-info-cont">
-                      <p class="category-product-item-name">{{ index.name }}</p>
+                      <p class="category-product-item-name">[[index.name]]</p>
                       <div class="category-product-info-buttons">
                         <p class="category-product-item-price">
-                          {{ index.price }} ₽
+                          [[index.price]] ₽
                         </p>
                         <button>
                           ADD
@@ -76,22 +76,22 @@
       <template v-if="cartActive == false">
         <div v-if="selectedProduct != 0" class="product-info">
           <button v-on:click="backProducts()" class="back-button btn-abs">
-            <img src="pngs/left-arrow.png" alt="">
+            <img src="{{ url_for('static', filename='pngs/left-arrow.png') }}" alt="">
           </button>
           <template v-for="(mask, index) in products">
             <div v-if="mask.id == selectedProduct" class="product">
               <img :src="mask.imageUrl" alt="">
               <div class="item-info">
                 <div class="item-main-inf">
-                  <p class="item-name">{{ mask.name }}</p>
-                  <p class="item-price">{{ mask.price }}₽</p>
+                  <p class="item-name">[[mask.name]]</p>
+                  <p class="item-price">[[mask.price]]₽</p>
                 </div>
-                <p class="item-description">{{ mask.description }}</p>
+                <p class="item-description">[[mask.description]]</p>
               </div>
               <div class="add-button-prod">
                 <button v-on:click="addProductInCart(mask.id)">
                   <div class="icon-add">
-                    <img src="pngs/bag.png" alt="">
+                    <img src="{{ url_for('static', filename='pngs/bag.png') }}" alt="">
                   </div>
                   <p>ADD TO CART</p>
                 </button>
@@ -105,7 +105,7 @@
       <template v-if="cartActive == true">
         <div class="nav-menu">
           <button v-on:click="hideCart()" class="back-button">
-            <img src="pngs/left-arrow.png" alt="">
+            <img src="{{ url_for('static', filename='pngs/left-arrow.png') }}" alt="">
           </button>
           <div class="cat-name">
             <p>
@@ -118,15 +118,15 @@
             <img :src="mask.product.imageUrl" alt="">
             <div class="cart-item-info">
               <div class="cart-item-info-main">
-                <p class="cart-item-info-main-name">{{ mask.product.name }}</p>
-                <p class="cart-item-info-main-price">{{ mask.product.price * mask.counter }}₽</p>
+                <p class="cart-item-info-main-name">[[mask.product.name]]</p>
+                <p class="cart-item-info-main-price">[[mask.product.price * mask.counter]]₽</p>
               </div>
               <div class="cart-item-info-pr-count">
-                <p class="cart-item-info-pr-count-price">₽{{ mask.product.price }}</p>
+                <p class="cart-item-info-pr-count-price">₽[[mask.product.price]]</p>
                 <div class="cart-item-info-counter">
                   <button class="left-add-butt" v-on:click="minusCounter(mask, index)"> - </button>
                   <div class="cart-item-info-counter-quantity">
-                    <p>{{ mask.counter }}</p>
+                    <p>[[mask.counter]]</p>
                   </div>
                   <button class="right-add-butt" v-on:click="plusCounter(mask, index)"> + </button>
                 </div>
@@ -142,7 +142,7 @@
   </div>
 
   <!---| IMPORT main.js script |--->
-  <script src="scripts/script.js"></script>
+  <script src="{{ url_for('static', filename='scripts/script.js') }}"></script>
 
 </body>
 

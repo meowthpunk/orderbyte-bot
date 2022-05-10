@@ -21,7 +21,7 @@ fetch(url)
     console.log(categories)
     console.log(products)
 
-    Vue.createApp({
+    var app = Vue.createApp({
       data() {
         return {
           selectedCategory: 0,
@@ -98,6 +98,8 @@ fetch(url)
         logger(){
           console.log('test')
         },
-      }
+      },
+
+      delimiters: ['[[', ']]']
     }).mount('#app');
   })
